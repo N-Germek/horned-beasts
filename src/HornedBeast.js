@@ -4,7 +4,8 @@ class HornedBeast extends React.Component  {
     render() {
         return(
             <>
-            <h2>Horned Beasts of the World</h2>
+            <h3>{this.props.title}</h3>
+            <p>{this.props.description}</p>
             </>
         )
     }
