@@ -1,11 +1,30 @@
 import React from "react";
-
+import Container from "react-bootstrap/Container";
+import Image from 'react-bootstrap/Image';
 class BeastImage extends React.Component  {
+   constructor(props) {
+       super(props);
+       this.state = {
+           status: "Will you vote for me?"
+       }
+   } 
+    
+   handleClick = () => {
+       if (this.state.status === "🫶Thank's for your vote!🫶") {
+           this.setState({ status: "Will you vote for me?" });
+       } else {
+           this.setState({ status: "🫶Thank's for your vote!🫶"});
+       }
+   } 
+
     render() {
         return(
-            <>
-            <img src={this.props.image} alt="Many Beasties!"/>
-            </>
+            <Container>
+            <Image src={this.props.image} alt="Many Beasties!"
+            onClick={this.handleClick}
+            />
+            <h2>{this.state.status}</h2>
+            </Container>
         )
     }
 }

@@ -18,7 +18,7 @@ Number and name of feature: Feature 2 Allow users to vote for their favorite bea
 
 Estimate of time needed to complete: 45 minutes
 
-Start time: _____
+Start time: 10:00pm
 
 Finish time: _____
 
