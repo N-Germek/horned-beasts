@@ -6,15 +6,21 @@ class BeastImage extends React.Component  {
        super(props);
        this.state = {
            status: "Will you vote for me?"
+           favoriteVotes: 0
        }
    } 
     
+   favoriteClicks = () => {
+       this.setState({favoriteVotes.this.state.favoriteVotes});
+   }
+
    handleClick = () => {
        if (this.state.status === "🫶Thank's for your vote!🫶") {
            this.setState({ status: "Will you vote for me?" });
        } else {
            this.setState({ status: "🫶Thank's for your vote!🫶"});
        }
+    
    } 
 
     render() {
