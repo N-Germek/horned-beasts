@@ -20,25 +20,25 @@ Estimate of time needed to complete: 45 minutes
 
 Start time: 10:00pm
 
-Finish time: _____
+Finish time: 10:05pm(next day).
 
-Actual time needed to complete: _____
+Actual time needed to complete: 4 hours.
 
 Number and name of feature: Feature 3 Bootstrap.
 
 Estimate of time needed to complete: 1-2 hours.
 
-Start time: _____
+Start time: 8:00pm
 
-Finish time: _____
+Finish time: 10:05pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 hours.
 
 Number and name of feature: Feature 4 Add Interaction.
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 3 hours
 
-Start time: _____
+Start time: not started
 
 Finish time: _____
 
