@@ -21,6 +21,8 @@ class BeastImage extends React.Component {
                 <Card style={{ width: '18rem' }} className="h-100">
             <Container>
                     <Card.Img src={this.props.image} alt={this.props.description} title={this.props.title} />
+                    <Button></Button>
+                        <Button>Click to meet me!</Button>
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
                         <Card.Text>
