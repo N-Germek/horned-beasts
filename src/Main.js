@@ -3,13 +3,13 @@ import BeastImage from './BeastImage';
 import { Col, Row } from "react-bootstrap";
 
 class Main extends React.Component  {
-    render() {  
+    render() { 
         return(
             <>
             <h2>{this.props.message}</h2>
             <Row sm={2} md={3} lg={4}>
-            {this.props.BeasttImage.map(oneBeast => (
-                <Col>
+            {this.props.Beasties.map(oneBeast => (
+                <Col key={oneBeast._id}>
                 <BeastImage
                 key={oneBeast._id}
                 image={oneBeast.image_url}

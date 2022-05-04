@@ -10,7 +10,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showModal: false
+      showModal: false,
+      selectedBeast: {}
     }
   }
 
@@ -18,8 +19,9 @@ handleCloseModal = () => {
   this.setState({ showModal:false });
 };
 
-handleOpenModal = () => {
-  this.setState({ showModal: true });
+handleOpenModal = (beastName) => {
+  const selectedBeast = Beasties.find(beast => beast.title === beastName);
+  this.setState({ showModal: true, selectedBeast});
 };
 
   render() {
@@ -33,7 +35,8 @@ handleOpenModal = () => {
        />
        <SelectedBeast 
        show={this.state.showModal} 
-       handleClose={this.handleCloseModal} />
+       handleClose={this.handleCloseModal} 
+       selectedBeast={this.state.selectedBeast}/>
        <Footer text="Vote Now for the best horns!"/>
       </Container>
     );
