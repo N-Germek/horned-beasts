@@ -24,7 +24,7 @@ Finish time: 10:05pm(next day).
 
 Actual time needed to complete: 4 hours.
 
-Number and name of feature: Feature 3 Bootstrap.
+Number and name of feature: Feature, 3 Bootstrap.
 
 Estimate of time needed to complete: 1-2 hours.
 
@@ -38,8 +38,18 @@ Number and name of feature: Feature 4 Add Interaction.
 
 Estimate of time needed to complete: 3 hours
 
-Start time: not started
+Start time: n/a
 
-Finish time: _____
+Finish time: n/a
 
-Actual time needed to complete: _____
+Actual time needed to complete: n/a
+
+Number and name of feature: Feature 4, Add Modal
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 11:45am
+
+Finish time: 1:48pm
+
+Actual time needed to complete: 2 hours 3 minutes
